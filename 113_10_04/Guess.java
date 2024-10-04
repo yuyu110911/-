@@ -1,5 +1,3 @@
-package cc.openhome;
-
 import java.util.Scanner;
 
 public class Guess {
@@ -9,10 +7,10 @@ public class Guess {
         var guess = -1;
         
         do {
-            System.out.print("²q¼Æ¦r¡]0 ~ 9¡^:");
+            System.out.print("ï¿½qï¿½Æ¦rï¿½]0 ~ 9ï¿½^:");
             guess = console.nextInt();
         } while(guess != number);
         
-        System.out.println("²q¤¤¤F...XD");
+        System.out.println("ï¿½qï¿½ï¿½ï¿½F...XD");
     }
 }
